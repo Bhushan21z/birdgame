@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.body{
+    background-image: url('bg.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.bird{
+    background-image: url('bird.png');
+    background-size:cover ;
+    height: 58px;
+    width: 177px;
+    position: absolute;
+    top: 100px;
+    left:300px;
+}
+.birdani{
+    animation: movebird linear 3s infinite;
+}
+.ins li{
+    height: 20px;
+    margin-top: 10px;
+    width: 160px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+.wall1{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 0px;
+    left: 1560px;
+}
+.wall2{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 150px;
+    left: 1560px;
+}
+.wall3{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 300px;
+    left: 1560px;
+}
+.wall4{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 450px;
+    left: 1560px;
+}
+.wall5{
+    background-image : url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 600px;
+    left: 1560px;
+}
+
+.wall1y{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 0px;
+    left: 1560px;
+}
+.wall2y{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 150px;
+    left: 1560px;
+}
+.wall3y{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 300px;
+    left: 1560px;
+}
+.wall4y{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 450px;
+    left: 1560px;
+}
+.wall5y{
+    background-image : url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 600px;
+    left: 1560px;
+}
+
+.wall1z{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 0px;
+    left: 1560px;
+}
+.wall2z{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 150px;
+    left: 1560px;
+}
+.wall3z{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 300px;
+    left: 1560px;
+}
+.wall4z{
+    background-image: url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 450px;
+    left: 1560px;
+}
+.wall5z{
+    background-image : url('brick.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 50px;
+    position:absolute;
+    top: 600px;
+    left: 1560px;
+}
+
+.fire{
+    background-image: url(treepng1.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -10px;
+    height: 30px;
+    width: 1550px;
+}
+.fire1{
+    background-image: url(f.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -10px;
+    height: 250px;
+    width: 500px;
+}
+.fire2{
+    background-image: url(f.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -10px;
+    height: 250px;
+    width: 500px;
+    left:500px;
+}
+.fire3{
+    background-image: url(f.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -10px;
+    height: 250px;
+    width: 500px;
+    left: 1000px;
+}
+.score{
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    padding-top: 5px;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    margin-left:100px;
+    padding-left: 5px;
+}
+.gameover{
+    position: absolute;
+    font-size: 40px;
+    background-color:black;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    top:40vh;
+    left:30vw;
+    opacity: 0;
+    align-items: center;
+    
+}
+.birdkhatam{
+    animation: khatam linear 2s;
+}
+
+.wallmove1{
+    animation: movebrick linear 5s infinite;
+}
+.wallmove2{
+    animation: movebrick linear 5s infinite;
+}
+.wallmove3{
+    animation: movebrick linear 5s infinite;
+}
+.wallmove4{
+    animation: movebrick linear 5s infinite;
+}
+.wallmove5{
+    animation: movebrick linear 5s infinite;
+}
+
+
+.wallmove1y{
+    animation: movebrick linear 4s infinite;
+}
+.wallmove2y{
+    animation: movebrick linear 4s infinite;
+}
+.wallmove3y{
+    animation: movebrick linear 4s infinite;
+}
+.wallmove4y{
+    animation: movebrick linear 4s infinite;
+}
+.wallmove5y{
+    animation: movebrick linear 4s infinite;
+}
+
+
+.wallmove1z{
+    animation: movebrick linear 3.5s infinite;
+}
+.wallmove2z{
+    animation: movebrick linear 3.5s infinite;
+}
+.wallmove3z{
+    animation: movebrick linear 3.5s infinite;
+}
+.wallmove4z{
+    animation: movebrick linear 3.5s infinite;
+}
+.wallmove5z{
+    animation: movebrick linear 3.5s infinite;
+}
+@keyframes movebrick{
+    0%{
+        left: 1530px;
+    }
+    100%{
+        left: -40px;
+    }
+}
+
+@keyframes khatam{
+    0%{
+        top: ".bird top";
+        transform: rotate(180deg);
+    }
+    100%{
+        top : 720px;
+        transform: rotate(180deg);
+    }
+}
