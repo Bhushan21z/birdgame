@@ -1,2 +1,2 @@
 # birdgame
-JS game
+HTML CSS JS game 
